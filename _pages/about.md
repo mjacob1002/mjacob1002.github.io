@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>University of Illinois Urbana-Champaign</a>.
 
 profile:
   align: right
@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-Hey there! I'm Mat, a 4th year undergraduate at UIUC studying CS. I've done research in High Performance Computing, specifically with [Charm++](https://github.com/charmplusplus/charm) and asynchronous task-based systems, as well as dabbling into the world of machine learning. My goal is to try and combine both the speed up techniques in high performance computing to the world of machine learning.
+Hey there! I'm Mat, a 4th year undergraduate at UIUC studying CS. I've done research in High Performance Computing, specifically with [Charm++](https://github.com/charmplusplus/charm) and asynchronous task-based systems, as well as dabbling into the world of machine learning and information retrieval. My interests, broadly, include both systems and machine learning; specifically, I'm interested in both building high performance systems to support machine learning, as well as develop a better understanding of how machine learning models and paradigms behave in the real world through comprehensive empirical experiments. 
 
 I've been fortunate to work with outstanding mentors and supervisors. At UIUC, I've been working with amazing [Professor Laxmikant Kale](https://charm.cs.illinois.edu/~kale/) in the [Parallel Programming Lab](http://charm.cs.uiuc.edu/), where I have worked on systems like CkIO. I have recently been trying to create new performant abstractions in Charm++ to improve ease-of-building and performance of workloads like data processing. 
 
