@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our preprint from my Databricks internship "Drowning in Documents: Consequences of Scaling Reranker Inference" is on the arxiv!
+Our preprint from my Databricks internship ["Drowning in Documents: Consequences of Scaling Reranker Inference"](https://arxiv.org/abs/2411.11767) is on the arxiv!
