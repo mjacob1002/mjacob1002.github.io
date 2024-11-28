@@ -11,7 +11,8 @@ doi = {10.48550/arXiv.2411.11767},
 abstract={Rerankers, typically cross-encoders, are often used to re-score the documents retrieved by cheaper initial IR systems. This is because, though expensive, rerankers are assumed to be more effective. We challenge this assumption by measuring reranker performance for full retrieval, not just re-scoring first-stage retrieval. Our experiments reveal a surprising trend: the best existing rerankers provide diminishing returns when scoring progressively more documents and actually degrade quality beyond a certain limit. In fact, in this setting, rerankers can frequently assign high scores to documents with no lexical or semantic overlap with the query. We hope that our findings will spur future research to improve reranking.
 },
 selected={true},
-pdf={papers/drowning_in_documents.pdf}
+pdf={papers/drowning_in_documents.pdf},
+preview={reranker_drowning_in_documents.jpeg}
 }
 
 @article{Jacob2021, 
@@ -23,7 +24,7 @@ volume = {6}, number = {62}, pages = {3247},
 author = {Mathew Jacob}, 
 title = {Eir: A Python Package for Epidemic Simulation}, journal = {Journal of Open Source Software} }
 
-@misc{jaob2024ckioparallelfileinput,
+@misc{jacob2024ckioparallelfileinput,
       title={CkIO: Parallel File Input for Over-Decomposed Task-Based Systems}, 
       author={Mathew Jacob and Maya Taylor and Laxmikant Kale},
       year={2024},
@@ -31,5 +32,6 @@ title = {Eir: A Python Package for Epidemic Simulation}, journal = {Journal of O
       archivePrefix={arXiv},
       primaryClass={cs.DC},
       url={https://arxiv.org/abs/2411.18593}, 
+      abstract={Parallel input performance issues are often neglected in large scale parallel applications in Computational Science and Engineering. Traditionally, there has been less focus on input performance because either input sizes are small (as in biomolecular simulations) or the time doing input is insignificant compared with the simulation with many timesteps. But newer applications, such as graph algorithms add a premium to file input performance. Additionally, over-decomposed systems, such as Charm++/AMPI, present new challenges in this context in comparison to MPI applications. In the over-decomposition model, naive parallel I/O in which every task makes its own I/O request is impractical. Furthermore, load balancing supported by models such as Charm++/AMPI precludes assumption of data contiguity on individual nodes. We develop a new I/O abstraction to address these issues by separating the decomposition of consumers of input data from that of file-reader tasks that interact with the file system. This enables applications to scale the number of consumers of data without impacting I/O behavior or performance. These ideas are implemented in a new input library, CkIO, that is built on Charm++, which is a well-known task-based and overdecomposed-partitions system. CkIO is configurable via multiple parameters (such as the number of file readers and/or their placement) that can be tuned depending on characteristics of the application, such as file size and number of application objects. Additionally, CkIO input allows for capabilities such as effective overlap of input and application-level computation, as well as load balancing and migration. We describe the relevant challenges in understanding file system behavior and architecture, the design alternatives being explored, and preliminary performance data.},
       pdf={papers/ckio_pdf.pdf}
 }
