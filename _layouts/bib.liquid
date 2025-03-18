@@ -250,7 +250,10 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
-    </div>
+	  {%if entry.twitter_thread%}
+			  <a href="https://{{entry.twitter_thread}}" class="btn btn-sm z-depth-0" role="button">Twitter Thread</a>
+	  {% endif %}
+	</div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
