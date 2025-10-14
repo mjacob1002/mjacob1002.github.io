@@ -1,0 +1,49 @@
+<div class="col">
+  <a href="{% if presentation.redirect %}{{ presentation.redirect }}{% else %}{{ presentation.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      {% if presentation.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=presentation.img
+          sizes = "250px"
+          alt="presentation thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ presentation.title }}</h2>
+        <p class="card-text">{{ presentation.description }}</p>
+        {% if presentation.venue %}
+          <p class="card-text"><small class="text-muted">{{ presentation.venue }}</small></p>
+        {% endif %}
+        {% if presentation.date %}
+          <p class="card-text"><small class="text-muted">{{ presentation.date | date: "%B %Y" }}</small></p>
+        {% endif %}
+        <div class="row ml-1 mr-1 p-0">
+          {% if presentation.slides %}
+            <div class="slides-icon">
+              <div class="icon" data-toggle="tooltip" title="Presentation Slides">
+                <a href="{{ presentation.slides }}"><i class="ti ti-presentation"></i></a>
+              </div>
+            </div>
+          {% endif %}
+          {% if presentation.video %}
+            <div class="video-icon">
+              <div class="icon" data-toggle="tooltip" title="Video Recording">
+                <a href="{{ presentation.video }}"><i class="ti ti-video"></i></a>
+              </div>
+            </div>
+          {% endif %}
+          {% if presentation.pdf %}
+            <div class="pdf-icon">
+              <div class="icon" data-toggle="tooltip" title="PDF Version">
+                <a href="{{ presentation.pdf }}"><i class="ti ti-file-text"></i></a>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
