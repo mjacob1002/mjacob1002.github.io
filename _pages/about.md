@@ -24,7 +24,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hey there, I'm Mat! I'm a first year PhD student at the University of Washington, co-advised by [Stephanie Wang](https://stephanie-wang.github.io/) and [Luis Ceze](https://homes.cs.washington.edu/~luisceze/). I am broadly interested in machine learning systems. 
+Hey there, I'm Mat! I'm a first year PhD student at the University of Washington, co-advised by [Stephanie Wang](https://stephanie-wang.github.io/) and [Luis Ceze](https://homes.cs.washington.edu/~luisceze/). I am broadly interested in machine learning systems. I am grateful to be supported by an NSF Graduate Research Fellowship.
 
 I graduated from UIUC with a B.S in Computer Science, where I worked with the amazing [Professor Laxmikant Kale](https://charm.cs.illinois.edu/~kale/) in the [Parallel Programming Lab](http://charm.cs.uiuc.edu/). There, I worked on high-performance computing systems and frameworks, specifically for Charm++. I helped build out CkIO, an I/O framework for HPC applicatoins at scale, as well as streaming systems to help adapt HPC frameworks to data processing workloads. 
 
