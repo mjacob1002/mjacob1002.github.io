@@ -325,7 +325,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Jacob ]
-  first_name: [Mathew]
+  first_name: [Mathew, Mat]
 
   style: apa
   locale: en
@@ -501,7 +501,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:

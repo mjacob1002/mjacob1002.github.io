@@ -46,6 +46,16 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    {% if entry.categories %}
+      {% assign cat_labels = entry.categories | split: "," %}
+      {% assign cat_slugs = entry.category_slugs | split: "," %}
+      <div class="category-pills">
+        {% for label in cat_labels %}
+          {% assign slug = cat_slugs[forloop.index0] | strip %}
+          <div class="category-pill" data-category="{{ slug }}">{{ label | strip }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->

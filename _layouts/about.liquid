@@ -15,34 +15,60 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+    {% if page.profile and page.profile.align == 'center' %}
+      {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+      {% if page.profile.image_circular %}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+      {% else %}
+        {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+      {% endif %}
+      <div class="hero">
+        <div class="hero-text">{{ content }}</div>
+        <div class="hero-photo">
+          {% if page.profile.image %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
+              cache_bust=true
+            %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
       </div>
+    {% else %}
+      {% if page.profile %}
+        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1
+        rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+        30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
+          {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
+      <div class="clearfix">{{ content }}</div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <!-- Career rail -->
+    {% include career_rail.liquid %}
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-      <h2>
+      <h2 class="section-heading">
+        <span class="section-num">01</span>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -50,7 +76,8 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <h2 class="section-heading">
+        <span class="section-num">02</span>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
       </h2>
       {% include selected_papers.liquid %}
