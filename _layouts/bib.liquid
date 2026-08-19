@@ -240,6 +240,18 @@
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
       {% endif %}
+      {% if entry.podcast %}
+        <a href="{{ entry.podcast }}" class="btn btn-sm z-depth-0" role="button">
+          {%- if entry.podcast_icon -%}
+            <img
+              src="{{ entry.podcast_icon | prepend: '/assets/img/' | relative_url }}"
+              alt=""
+              style="height: 1em; vertical-align: -0.125em; margin-right: 0.35em;"
+            >
+          {%- endif -%}
+          {%- if entry.podcast_name %}{{ entry.podcast_name }}{% else %}Podcast{% endif -%}
+        </a>
+      {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
