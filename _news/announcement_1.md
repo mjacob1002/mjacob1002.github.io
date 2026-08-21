@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started internship at Databrick Mosaic Research as a Research Scientist!
+Started internship at Databricks Mosaic Research as a Research Scientist!

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Illinois Urbana-Champaign</a>.
+subtitle: <a href='#'>University of Washington</a>.
 
 profile:
   align: center
@@ -24,10 +24,13 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hey there, I'm Mat! I'm a first year PhD student at the University of Washington, co-advised by [Stephanie Wang](https://stephanie-wang.github.io/) and [Luis Ceze](https://homes.cs.washington.edu/~luisceze/). I am broadly interested in machine learning systems. I am grateful to be supported by an NSF Graduate Research Fellowship.
+Hey there, I'm Mat! I'm a first year PhD student at the University of Washington, co-advised by [Stephanie Wang](https://stephanie-wang.github.io/) and [Luis Ceze](https://homes.cs.washington.edu/~luisceze/). I am broadly interested in machine learning systems. Currently, I am working on improving the efficiency of reinforcement learning systems. I am affiliated with the [SyFI Lab](https://syfi.cs.washington.edu/). I am grateful to be supported by an NSF Graduate Research Fellowship.
 
-I graduated from UIUC with a B.S in Computer Science, where I worked with the amazing [Professor Laxmikant Kale](https://charm.cs.illinois.edu/~kale/) in the [Parallel Programming Lab](http://charm.cs.uiuc.edu/). There, I worked on high-performance computing systems and frameworks, specifically for Charm++. I helped build out CkIO, an I/O framework for HPC applicatoins at scale, as well as streaming systems to help adapt HPC frameworks to data processing workloads. 
+I graduated from UIUC with a B.S. in Computer Science, where I worked with [Professor Laxmikant Kale](https://charm.cs.illinois.edu/~kale/) in the [Parallel Programming Lab](http://charm.cs.uiuc.edu/), improving the performance of high performance computing applications with Charm++. I have also worked on information retrieval and RAG, advised by [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) and mentored by amazing folks including [Andrew Drozdov](https://mrdrozdov.github.io/) and [Omar Khattab](https://omarkhattab.com/).
 
-In industry, I am  fortunate to have worked with Databricks Mosaic Research as a Research Scientist Intern. Under the outstanding mentorship of [Andrew Drozdov](https://mrdrozdov.github.io/), [Omar Khattab](https://omarkhattab.com/), [Michael Carbin](https://people.csail.mit.edu/mcarbin/), [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/), and [Erik Lindgren](https://erikml.com/), I focused on how to best improve RAG pipelines. I specifically focused on reranker models, and discovered new trends in the modern landscape that challenge the existing conventional knowledge in information retrieval.
+I'm more than happy to chat with anyone about research ideas, collaborations, or honestly anything else! Feel free to reach out to me via email at <code style="white-space: nowrap;">mjacob2 [at] cs.washington.edu</code>, or any other socials I have.
+
+
+<!-- In industry, I am fortunate to have worked with Databricks Mosaic Research as a Research Scientist Intern. Under the outstanding mentorship of [Andrew Drozdov](https://mrdrozdov.github.io/), [Omar Khattab](https://omarkhattab.com/), [Michael Carbin](https://people.csail.mit.edu/mcarbin/),  and [Erik Lindgren](https://erikml.com/), I focused on how to best improve RAG pipelines. I specifically focused on reranker models, and discovered new trends in the modern landscape that challenge the existing conventional knowledge in information retrieval. -->
 
 
