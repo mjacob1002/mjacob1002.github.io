@@ -54,13 +54,15 @@
       selected={true}
 }
 
-@article{unknown,
-year = {2024},
-month = {11},
-pages = {},
+@inproceedings{jacob2025drowning,
+year = {2025},
+month = {7},
+booktitle = {ReNeuIR Workshop at SIGIR 2025},
+abbr = {ReNeuIR},
 title = {Drowning in Documents: Consequences of Scaling Reranker Inference},
 author = {Jacob, Mathew and Lindgren, Erik and Zaharia, Matei and Carbin, Michael and Khattab, Omar and Drozdov, Andrew},
 doi = {10.48550/arXiv.2411.11767},
+arxiv = {2411.11767},
 abstract={Rerankers, typically cross-encoders, are often used to re-score the documents retrieved by cheaper initial IR systems. This is because, though expensive, rerankers are assumed to be more effective. We challenge this assumption by measuring reranker performance for full retrieval, not just re-scoring first-stage retrieval. Our experiments reveal a surprising trend: the best existing rerankers provide diminishing returns when scoring progressively more documents and actually degrade quality beyond a certain limit. In fact, in this setting, rerankers can frequently assign high scores to documents with no lexical or semantic overlap with the query. We hope that our findings will spur future research to improve reranking.
 },
 selected={true},
