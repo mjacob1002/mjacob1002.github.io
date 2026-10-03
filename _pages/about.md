@@ -28,7 +28,7 @@ Hey there, I'm Mat! I'm a second year PhD student at the University of Washingto
 
 I graduated from UIUC with a B.S. in Computer Science, where I worked with [Professor Laxmikant Kale](https://charm.cs.illinois.edu/~kale/) in the [Parallel Programming Lab](http://charm.cs.uiuc.edu/), improving the performance of high performance computing applications with Charm++. I have also worked on information retrieval and RAG, advised by [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) and mentored by amazing folks including [Andrew Drozdov](https://mrdrozdov.github.io/) and [Omar Khattab](https://omarkhattab.com/).
 
-I'm more than happy to chat with anyone about research ideas, collaborations, or honestly anything else! Feel free to reach out to me via email at <code style="white-space: nowrap;">mjacob2 [at] cs.washington.edu</code>, or any other socials I have.
+I'm more than happy to chat with anyone about research ideas, collaborations, or honestly anything else! Feel free to reach out to me via email at <code style="white-space: nowrap;">mjacob2 [at] cs [dot] washington [dot] edu</code>, or any other socials I have.
 
 
 <!-- In industry, I am fortunate to have worked with Databricks Mosaic Research as a Research Scientist Intern. Under the outstanding mentorship of [Andrew Drozdov](https://mrdrozdov.github.io/), [Omar Khattab](https://omarkhattab.com/), [Michael Carbin](https://people.csail.mit.edu/mcarbin/),  and [Erik Lindgren](https://erikml.com/), I focused on how to best improve RAG pipelines. I specifically focused on reranker models, and discovered new trends in the modern landscape that challenge the existing conventional knowledge in information retrieval. -->
