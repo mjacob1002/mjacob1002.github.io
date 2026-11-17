@@ -1,6 +1,25 @@
 ---
 ---
 
+@misc{jacob2026tide,
+      title={TIDE: Reclaiming Lost Performance In On-Policy Reinforcement Learning},
+      author={Jacob*, Mathew and Borjigin-Wang*, Morgan and Zhu, Kan and Chen, Po Hao and Pan, Yi and Ruan, Andy and Modugula, Nayani and Lavi, Ethan and Ceze, Luis and Schwarzkopf, Malte and Narayan, Akshay and Raghavan, Deepti and Wang, Stephanie},
+      year={2026},
+      month={11},
+      eprint={2611.17924},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.17924},
+      doi={10.48550/arXiv.2611.17924},
+      abstract={Synchronous, colocated RL post-training of large language models (LLMs) today suffers from severe under-utilization due to long-tail rollouts. Inference engines fall idle waiting for long-tail rollouts or decode at low, inefficient batch sizes. To address this, we present TIDE, an RL training system that preserves on-policy training semantics while recovering resource utilization. TIDE does so by two complementary techniques: (1) dynamically repurposing rollout GPUs for training while long-tail rollouts complete and (2) dynamically migrating rollouts between inference engines to boost decoding throughput. TIDE automatically determines the right time to repurpose rollout resources through an adaptive migration policy, obtaining performance improvements that generalize across multiple applications and hardware configurations without requiring bespoke configuration. In our evaluation, TIDE provides end-to-end speedups of up to 1.36x over colocated systems, outperforming all evaluated on-policy baselines and achieving up to 97% of optimal throughput.},
+      arxiv={2611.17924},
+      annotation={* Equal contribution},
+      pdf={papers/tide.pdf},
+      categories={MLSys},
+      category_slugs={mlsys},
+      selected={true}
+}
+
 @misc{zhu2026tracelab,
       title={TraceLab: Characterizing Coding Agent Workloads for LLM Serving},
       author={Zhu, Kan and Jacob, Mathew and Ma, Chenxi and Pan, Yi and Wang, Stephanie and Krishnamurthy, Arvind and Kasikci, Baris},
